@@ -45,3 +45,4 @@ def predict():
     data = {"success": True}
     data["response"] = (CLASS_MAP[preds[0].numpy()])
     return flask.jsonify(data)
+app.run()
