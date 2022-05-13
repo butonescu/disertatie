@@ -2,7 +2,6 @@
 import json
 import os
 import flask
-import trimesh
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
